@@ -1,0 +1,55 @@
+.idea
+node_modules
+node_modules/**
+package-lock.json
+
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and databases #
+######################
+*.log
+
+# Private Keys
+*.pem
+
+# Xcode legacy
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+
+# Xcode
+xcuserdata/
+project.xcworkspace/
+DerivedData/
+
+# build products
+build/
+*.[oa]
+
+# Cocoapods
+Pods/
+
+# repositories
+.hg
+.svn
+CVS
+
+# automatic backup files
+*~.nib
+*.swp
+*~
+
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/

@@ -1,0 +1,48 @@
+{
+  "_location": "/gxhelperclasses",
+  "name": "gxhelperclasses",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Majid Hatami <mjhatamy@gmail.com> (http://mygix.com)",
+  "bugs": {
+    "url": "https://github.com/mjhatamy/gxhelperclasses_nodejs/issues"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.379.0",
+    "utils": "^0.3.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.379.0",
+    "utils": "^0.3.1"
+  },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "homepage": "https://github.com/mjhatamy/gxhelperclasses_nodejs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjhatamy/gxhelperclasses_nodejs.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "verb": {
+    "deps": {
+      "ignore": [
+        "staging"
+      ]
+    }
+  }
+}
