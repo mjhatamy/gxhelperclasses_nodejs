@@ -4,7 +4,7 @@
   "version": "0.1.1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Majid Hatami <mjhatamy@gmail.com> (http://mygix.com)",
   "bugs": {
@@ -20,10 +20,13 @@
   "description": "",
   "dependencies": {
     "aws-sdk": "^2.379.0",
+    "axios": "^0.18.0",
+    "os": "^0.1.1",
     "utils": "^0.3.1"
   },
   "devDependencies": {
     "aws-sdk": "^2.379.0",
+    "axios": "^0.18.0",
     "utils": "^0.3.1"
   },
   "files": [
@@ -34,9 +37,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mjhatamy/gxhelperclasses_nodejs.git"
-  },
-  "scripts": {
-    "test": "mocha"
   },
   "verb": {
     "deps": {
