@@ -4,7 +4,7 @@
   "version": "0.1.1",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node test.js"
   },
   "author": "Majid Hatami <mjhatamy@gmail.com> (http://mygix.com)",
   "bugs": {
@@ -21,6 +21,7 @@
   "dependencies": {
     "aws-sdk": "^2.379.0",
     "axios": "^0.18.0",
+    "circular-json": "^0.5.9",
     "node-pushnotifications": "^1.1.8",
     "os": "^0.1.1",
     "utils": "^0.3.1"
